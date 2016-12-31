@@ -7,7 +7,7 @@ This projects contais tree ROS package:
  
 NB: you may want also to check out our python interfacce for ontology managment trhough ROS at: https://github.com/EmaroLab/armor_py_api
 
-to **install** those ROS package check out our [cloning guide](https://github.com/EmaroLab/docs/wiki/GitHub-Tutorial-to-Manage-Project-with-SubRepositories)
+to **install** those ROS package check out our [cloning guide](https://github.com/EmaroLab/docs/wiki/GitHub-Tutorial-to-Manage-Project-with-SubRepositories#clone-the-project)
 
 for **documentation** refer to the original repository of each package listed above.
 
