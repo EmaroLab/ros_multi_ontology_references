@@ -1,0 +1,12 @@
+[submodule "armor"]
+	path = armor
+	url = https://github.com/EmaroLab/armor.git
+	branch = master
+[submodule "armor_msgs"]
+	path = armor_msgs
+	url = https://github.com/EmaroLab/armor_msgs.git
+	branch = master
+[submodule "multi_ontology_reference"]
+	path = multi_ontology_reference
+	url = https://github.com/EmaroLab/multi_ontology_reference.git
+	branch = master
