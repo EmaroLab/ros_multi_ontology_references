@@ -2,7 +2,7 @@
 The complete ARMOR project and its direct dependecnies.
 This repository contais three ROS packages:
  - the [multi ontology reference](https://github.com/EmaroLab/multi_ontology_reference) library (AMOR)
- - the [ARMOR](https://github.com/EmaroLab/armor) (ros_multi_ontology_reference) ROS package
+ - the [ARMOR](https://github.com/EmaroLab/armor) (ros_multi_ontology_reference) service package
  - the [armor_msgs](https://github.com/EmaroLab/armor_msgs) package
  
 A library to write clients in Python is available at this [**page**](https://github.com/EmaroLab/armor_py_api).
