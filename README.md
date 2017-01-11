@@ -1,15 +1,15 @@
 # ros_multi_ontology_references
-the complete aRMOR project for easy installing.
-This projects contais tree ROS package:
- - the [multi ontology reference](https://github.com/EmaroLab/multi_ontology_reference) library
- - the [ROS service for multi ontology managment](https://github.com/EmaroLab/armor)
- - the [common ROS messages](https://github.com/EmaroLab/armor_msgs)
+The complete ARMOR project and its direct dependecnies.
+This repository contais three ROS packages:
+ - the [multi ontology reference](https://github.com/EmaroLab/multi_ontology_reference) library (AMOR)
+ - the [ARMOR](https://github.com/EmaroLab/armor) (ros_multi_ontology_reference) ROS package
+ - the [armor_msgs](https://github.com/EmaroLab/armor_msgs) package
  
-NB: you may want also to check out our python interfacce for ontology managment trhough ROS at: https://github.com/EmaroLab/armor_py_api
+A library to write clients in Python is available at this [**page**](https://github.com/EmaroLab/armor_py_api).
 
-to **install** those ROS package check out our [cloning guide](https://github.com/EmaroLab/docs/wiki/GitHub-Tutorial-to-Manage-Project-with-SubRepositories#clone-the-project)
+This is a repository using submodules. If you are unsure how to **clone** and **install** it, check out our [cloning guide](https://github.com/EmaroLab/docs/wiki/GitHub-Tutorial-to-Manage-Project-with-SubRepositories#clone-the-project).
 
-for **documentation** refer to the original repository of each package listed above.
+For **documentation**, refer to the orignal documentation of each submodule .
 
 ### Contacts
 For comment, discussions or support refer to this git repository or contact us at:
