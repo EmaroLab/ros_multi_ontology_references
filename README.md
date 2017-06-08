@@ -1,5 +1,5 @@
 # ros_multi_ontology_references
-The complete ARMOR project and its direct dependecnies.
+The complete ARMOR project and its direct dependencies.
 This repository contais three ROS packages:
  - the [multi ontology reference](https://github.com/EmaroLab/multi_ontology_reference) library (AMOR)
  - the [ARMOR](https://github.com/EmaroLab/armor) (ros_multi_ontology_reference) service package
@@ -13,5 +13,5 @@ For **documentation**, refer to the orignal documentation of each submodule .
 
 ### Contacts
 For comment, discussions or support refer to this git repository or contact us at:
- - [luca.buoncompagni@edu.unige.it](mailto:luca.buoncompagni@edu.unige.it).
- - [alessio.capitanelli@dibris.unige.it](mailto:alessio.capitanelli@dibris.unige.it),
+ - [luca.buoncompagni@edu.unige.it](mailto:luca.buoncompagni@edu.unige.it),
+ - [alessio.capitanelli@dibris.unige.it](mailto:alessio.capitanelli@dibris.unige.it).
