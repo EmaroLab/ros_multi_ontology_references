@@ -10,3 +10,7 @@
 	path = multi_ontology_reference
 	url = https://github.com/EmaroLab/multi_ontology_reference.git
 	branch = master
+[submodule "armor_py_api"]
+	path = armor_py_api
+	url = https://github.com/EmaroLab/armor_py_api.git
+	branch = master
