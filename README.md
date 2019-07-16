@@ -22,7 +22,7 @@ after, run
  - `cd ros_multi_ontology_references/`
  - `git submodule update --init --recursive --remote`
  - `cd ../..`
- - `catkin__make`
+ - `catkin_make`
 
 # Getting Started
 For runnig an *hello-world* example, type in different terminals:
