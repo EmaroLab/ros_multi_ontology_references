@@ -10,9 +10,13 @@ This repository contains four ROS packages:
 **aRMOR** is a ROS service depending on *AMOR* (a OWLAPI-based library), and *armor_msgs*, which contains the ROSjava-based input and output interfaces of aRMOR.
 The project contains also an example of a Python service's client that uses our *api* to perform some simple manipulations and queries to a [test](https://github.com/EmaroLab/armor_py_api/blob/master/test/test.owl) OWL ontology.
 
-# Getting Started
+# Installation
 Each package is a Git sub-module (i.e., a repository, see [here](https://github.com/EmaroLab/docs/wiki/GitHub-Tutorial-to-Manage-Project-with-SubRepositories#clone-the-project) for a simple guide).
-For installing the progect make sure to have a working installation of **ROS** and **ROSJava** before to run
+
+For installing the progect make sure to have a working installation of **ROS** and isntall **ROSJava** (if you didn't already) with
+ - ` sudo apt-get install ros-kinetic-rosjava`  
+ 
+after, run
  - `cd your_catkin_ws/src`
  - `git clone git clone https://github.com/EmaroLab/ros_multi_ontology_references.git`
  - `cd ros_multi_ontology_references/`
@@ -20,7 +24,8 @@ For installing the progect make sure to have a working installation of **ROS** a
  - `cd ../..`
  - `catkin__make`
 
-For runnig an *hello-world* example, run in different terminals:
+# Getting Started
+For runnig an *hello-world* example, type in different terminals:
  - `rosrun armor execute it.emarolab.armor.ARMORMainService`
  - `rosrun armor_py_api client_test.py`
 
@@ -34,14 +39,15 @@ rosservice call /armor_interface_srv "armor_request:
     secondary_command_spec: 'RESTRICTIONS'
     args: ['Class_4']" 
 ```
-Check [here](https://github.com/EmaroLab/armor/blob/master/README.MD) all the aMOR features, and [here](https://github.com/EmaroLab/armor/blob/master/commands.md) the complete list of requests thet the service can digest.
+Check [here](https://github.com/EmaroLab/armor/blob/master/README.MD) all the aMOR features and installation details.
+Also, check [here](https://github.com/EmaroLab/armor/blob/master/commands.md) the complete list of requests thet the service can digest.
 For more documentation about each modules and the last releases, refer to the links of the four repositories above.
 
 # Known Issues
 
 aRMOR gives an [elementary](https://github.com/EmaroLab/armor/issues/5#issuecomment-479956294) interface to SPARQL.
 We made aMOR in order to accommodate a better support for SPARQL, but we are not planning to support them soon.
-You are welcome if you want to contribute and share your idea and, if your findings are based on OWL-API, we are happy to integrate them in aRMOR.
+You are welcome if you want to contribute or share your idea and, if your findings are based on OWL-API, we will be happy to integrate them in aRMOR.
 
 Also, it is recommended to do not use ontology with entities having IRI with different roots.
 For importing entities with different IRIs and convert them to a common root we use the ontology editor [Protege](https://protege.stanford.edu/).
