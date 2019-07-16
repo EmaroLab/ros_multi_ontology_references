@@ -13,7 +13,7 @@ The project contains also an example of a Python service's client that uses our 
 # Installation
 Each package is a Git sub-module (i.e., a repository, see [here](https://github.com/EmaroLab/docs/wiki/GitHub-Tutorial-to-Manage-Project-with-SubRepositories#clone-the-project) for a simple guide).
 
-For installing the progect make sure to have a working installation of **ROS** and isntall **ROSJava** (if you didn't already) with
+For installing the progect make sure to have a working installation of **ROS** and install **ROSJava** (if you didn't already) with
  - ` sudo apt-get install ros-kinetic-rosjava`  
  
 after, run
@@ -40,7 +40,7 @@ rosservice call /armor_interface_srv "armor_request:
     args: ['Class_4']" 
 ```
 Check [here](https://github.com/EmaroLab/armor/blob/master/README.MD) all the aMOR features and installation details.
-Also, check [here](https://github.com/EmaroLab/armor/blob/master/commands.md) the complete list of requests thet the service can digest.
+Also, check [here](https://github.com/EmaroLab/armor/blob/master/commands.md) the complete list of requests that the service can digest.
 For more documentation about each modules and the last releases, refer to the links of the four repositories above.
 
 # Known Issues
