@@ -13,7 +13,7 @@ The project contains also an example of a Python service's client that uses our 
 # Installation
 Each package is a Git sub-module (i.e., a repository, see [here](https://github.com/EmaroLab/docs/wiki/GitHub-Tutorial-to-Manage-Project-with-SubRepositories#clone-the-project) for a simple guide).
 
-For installing the progect make sure to have a working installation of **ROS** and install **ROSJava** (if you didn't already) with
+For installing the progect make sure to have a working installation of **ROS** and install **ROSJava** (if you didn't already). For instance, for ROS kinetic type
  - ` sudo apt-get install ros-kinetic-rosjava`  
  
 after, run
@@ -48,8 +48,8 @@ For more documentation about each modules and the last releases, refer to the li
 # Known Issues
 
 aRMOR gives an [elementary](https://github.com/EmaroLab/armor/issues/5#issuecomment-479956294) interface to SPARQL.
-We made aMOR in order to accommodate a better support for SPARQL, but we are not planning to support them soon.
-You are welcome if you want to contribute or share your idea and, if your findings are based on OWL-API, we will be happy to integrate them in aRMOR.
+We made aMOR in order to accommodate a better support for SPARQL, but we are not planning to implement it soon.
+You are welcome if you want to contribute or share your idea, and (if your findings are based on OWL-API) we will be happy to integrate them in aRMOR.
 
 Also, it is recommended to do not use ontology with entities having IRI with different roots.
 For importing entities with different IRIs and convert them to a common root we use the ontology editor [Protege](https://protege.stanford.edu/).
