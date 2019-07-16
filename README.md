@@ -23,6 +23,8 @@ after, run
  - `git submodule update --init --recursive --remote`
  - `cd ../..`
  - `catkin_make`
+ - `cd src/ros_multi_ontology_references/armor`
+ - `./gradlew deployApp`
 
 # Getting Started
 For runnig an *hello-world* example, type in different terminals:
