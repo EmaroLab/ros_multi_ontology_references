@@ -18,7 +18,7 @@ For installing the progect make sure to have a working installation of **ROS** a
  
 after, run
  - `cd your_catkin_ws/src`
- - `git clone git clone https://github.com/EmaroLab/ros_multi_ontology_references.git`
+ - `git clone https://github.com/EmaroLab/ros_multi_ontology_references.git`
  - `cd ros_multi_ontology_references/`
  - `git submodule update --init --recursive --remote`
  - `cd ../..`
