@@ -21,6 +21,9 @@ after, run
  - `git clone https://github.com/EmaroLab/ros_multi_ontology_references.git`
  - `cd ros_multi_ontology_references/`
  - `git submodule update --init --recursive --remote`
+ - optionally update to the last version 
+      - ` git submodule foreach git pull origin master`
+      - `git submodule foreach git checkout master`
  - `cd ../..`
  - `catkin_make`
  - `cd src/ros_multi_ontology_references/armor`
