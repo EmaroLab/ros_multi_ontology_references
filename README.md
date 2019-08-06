@@ -22,7 +22,7 @@ after, run
  - `cd ros_multi_ontology_references/`
  - `git submodule update --init --recursive --remote`
  - optionally update to the last version 
-      - ` git submodule foreach git pull origin master`
+      - `git submodule foreach git pull origin master`
       - `git submodule foreach git checkout master`
  - `cd ../..`
  - `catkin_make`
