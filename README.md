@@ -66,7 +66,7 @@ If aMOR is usefull for your applications, please **cite** our related work
  - Buoncompagni, Luca, and Capitanelli, Alessio, and Mastrogiovanni, Fulvio: "[A ROS multi-ontology references service: OWL reasoners and application prototyping issues](http://ceur-ws.org/Vol-2352/short7.pdf)". In: Proceedings of the 5th Italian Workshop on Artificial Intelligence and Robotics (AIRO) A workshop of the XVII International Conference of the Italian Association for Artificial Intelligence. CEUR-WS, Trento, Italy (2018).
 
 Here scenarios in which we used aRMOR
- - Buoncompagni, Luca, and Fulvio Mastrogiovanni. "[Dialogue-based supervision and explanation of robot spatial beliefs: a software architecture perspective](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8525828&tag=1) 2018 27th IEEE International Symposium on Robot and Human Interactive Communication (RO-MAN). IEEE, 2018.
+ - Buoncompagni, Luca, and Mastrogiovanni, Fulvio. "[Dialogue-based supervision and explanation of robot spatial beliefs: a software architecture perspective](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8525828&tag=1) 2018 27th IEEE International Symposium on Robot and Human Interactive Communication (RO-MAN). IEEE, 2018.
  - Capitanelli, Alessio, and Maratea, Marco, and Mastrogiovanni, Fulvio, and Vallati, Mauro (2018). "[On the manipulation of articulated objects in human–robot cooperation scenarios](https://arxiv.org/pdf/1801.01757.pdf)". Robotics and Autonomous Systems, 109, 139-155.
  
 # Contacts
